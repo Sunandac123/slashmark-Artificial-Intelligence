@@ -1,0 +1,4 @@
+File 1,File 2,Cosine Similarity,Fuzzy Similarity,Average Score,Plagiarism
+file1.txt,file2.txt,0.63,0.86,0.75,Yes
+file1.txt,file3.txt,0.0,0.0,0.0,No
+file2.txt,file3.txt,0.0,0.0,0.0,No
