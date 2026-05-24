@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Read original dataset
+df = pd.read_csv("creditcard.csv")
+
+# Take only first 500 rows
+small_df = df.head(500)
+
+# Save smaller file
+small_df.to_csv("sample_credit.csv", index=False)
+
+print("Small CSV created successfully")
